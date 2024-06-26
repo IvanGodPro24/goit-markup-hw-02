@@ -2,8 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
-  width: 1440px;
-  height: 3300px;
 }
 
 ul {
@@ -17,17 +15,17 @@ ul {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-nav-link {
@@ -36,6 +34,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-info {
+  font-style: normal
 }
 
 .header-nav-link:hover,
@@ -73,7 +75,7 @@ ul {
 .first-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -111,16 +113,17 @@ ul {
 }
 
 .team {
-  background: #f4f4fd;
+   background-color: #FFFFFF
 }
 
 .second-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize
 }
 
 .third-team-title {
@@ -143,10 +146,10 @@ ul {
 
 .portfolio-paragraph {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .footer {
