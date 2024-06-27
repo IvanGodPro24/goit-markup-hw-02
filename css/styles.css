@@ -12,7 +12,7 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -67,8 +67,6 @@ ul {
 }
 
 .hero {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 
@@ -113,7 +111,11 @@ ul {
 }
 
 .team {
-   background-color: #FFFFFF
+  background-color: #F4F4FD;
+}
+
+.team-item {
+  background-color: #FFFFFF;
 }
 
 .second-title {
@@ -153,9 +155,17 @@ ul {
 }
 
 .footer {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
+}
+
+.web-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-paragraph {
